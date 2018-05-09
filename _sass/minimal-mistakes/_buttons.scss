@@ -97,12 +97,3 @@
     font-size: $type-size-7;
   }
 }
-
-// ref. https://hayashikejinan.com/webwork/css/913/
-.fa-hatebu {
-  &:before {
-    content: "B!";
-    font-family: Verdana;
-    font-weight: bold;
-  }
-}
