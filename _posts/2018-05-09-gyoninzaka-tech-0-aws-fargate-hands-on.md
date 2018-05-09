@@ -1,5 +1,5 @@
 ---
-title: 行人坂.tech #0 に参加して AWS Fargate のハンズオンをやってみた #gyoninzaka_tech
+title: "行人坂.tech #0 に参加して AWS Fargate のハンズオンをやってみた #gyoninzaka_tech"
 date: 2018-05-09 23:30:00 +0900
 ---
 
