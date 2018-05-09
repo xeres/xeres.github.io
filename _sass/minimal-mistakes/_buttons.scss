@@ -40,7 +40,8 @@
   (facebook, $facebook-color),
   (twitter, $twitter-color),
   (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color);
+  (linkedin, $linkedin-color),
+  (hatebu, ##00a4de);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
@@ -94,5 +95,14 @@
   /* small button */
   &--small {
     font-size: $type-size-7;
+  }
+}
+
+// ref. https://hayashikejinan.com/webwork/css/913/
+.fa-hatena {
+  &:before {
+    content: "B!";
+    font-family: Verdana;
+    font-weight: bold;
   }
 }
