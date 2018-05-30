@@ -4,7 +4,7 @@ date: 2018-05-30 23:19:00 +0900
 ---
 ## WSL を有効にする → Ubuntu 16.04 LTS をインストールする
 
-基本的には[whatsnew-wsl-fcu][公式ブログ]の手順に沿って導入すれば問題ない。
+基本的には[公式ブログ][whatsnew-wsl-fcu]の手順に沿って導入すれば問題ない。
 Windows 10 バージョン 1709 (Fall Creators Update) 以降、開発者モードは不要となっているし、
 `lxrun.exe /install` を叩く手順も非推奨となっている。
 
@@ -16,11 +16,11 @@ Visual Studio Code (VS Code) を起動すると X サーバーごと応答なし
 
 ## Windows 側に X サーバーをインストールする
 
-[vcxsrv][VcXsrv]とか適当に入れてちょうだい。
+[VcXsrv][vcxsrv]とか適当に入れてちょうだい。
 
 ## VS Code をインストールする
 
-基本的には[installing-vscode][公式ドキュメント]を参照でよいが、一部の修正が必要。
+基本的には[公式ドキュメント][installing-vscode]を参照でよいが、一部の修正が必要。
 
 1. `sudo mv` を利用した手順だと `/etc/apt/trusted.gpg.d/microsoft.gpg` のオーナーが一般ユーザーになってしまうので `sudo cp` を利用する
 2. 依存しているが不足しているライブラリがあるので `libgtk2.0-0`, `libxss1`, `libasound2` をインストールする
@@ -46,7 +46,7 @@ code
 
 次に日本語化を行う。
 
-フォントは Google がオープンソースで提供している [noto][Google Noto Fonts] を
+フォントは Google がオープンソースで提供している [Google Noto Fonts][noto] を
 利用しているが、`fontconfig` で制御されているので好きなものでよい。
 
 ```shell
