@@ -100,6 +100,15 @@ sudo apt install -y x11-xserver-utils
 xset -r 49
 ```
 
+## タイムゾーンを JST にする
+
+デフォルトのタイムゾーンは DST になっているので JST にする。
+
+```shell
+sudo echo Asia/Tokyo > /etc/timezone
+sudo dpkg-reconfigure --frontend noninteractive tzdata
+```
+
 ## `~/.profile` に環境変数や起動時コマンドを追記する
 
 ざっとこんな感じ。
