@@ -32,6 +32,7 @@ Windows 側で X サーバーの起動を忘れないように。
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo cp microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 rm microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
 sudo apt update
 
@@ -105,7 +106,7 @@ xset -r 49
 デフォルトのタイムゾーンは DST になっているので JST にする。
 
 ```shell
-sudo echo Asia/Tokyo > /etc/timezone
+sudo sh -c 'echo Asia/Tokyo > /etc/timezone'
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 ```
 
