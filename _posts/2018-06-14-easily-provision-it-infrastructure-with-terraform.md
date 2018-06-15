@@ -246,6 +246,10 @@ date: 2018-06-15 21:00:00 +0900
 
 ## LT: Terraform だって YAML で書きたい
 
+- 2018/06/15追記: スライド上がってた
+  - [Terraform だって YAML で書きたい][terraform-with-yaml]
+  - スライド中にタイマーあるのいいなと思った、真似したい。
+
 - 宣伝
   - [Ignite][ignite] やってます
   - [インフラCI実践ガイド][infra-ci-guide] 6/18発売
@@ -274,6 +278,9 @@ date: 2018-06-15 21:00:00 +0900
   - いつかちゃんとパーサーを書いて contribute するぞ!笑
 
 ## LT: InSpec を使った Terraform のテスト
+
+- 2018/06/15追記: スライド上がってた
+  - [InSpec を使った Terraform のテスト][terraform-with-inspec]
 
 - Terraform は便利だが、一歩間違うと大惨事
   - Terraform 自体や Provider のバージョンアップ
@@ -325,3 +332,5 @@ date: 2018-06-15 21:00:00 +0900
 [ignite]: https://www.ignite.ci/
 [infra-ci-guide]: http://www.amazon.co.jp/o/ASIN/B07D2YCMJ5/xeres-22/
 [terraform-with-azure]: https://www.slideshare.net/kyoheim/terraformazure-102448779
+[terraform-with-yaml]: https://speakerdeck.com/habuka036/terraformdatuteyamldeshu-kitai
+[terraform-with-inspec]: https://talks.godoc.org/github.com/tkak/talks/2018/06/testing-terraform-code-with-inspec.slide#1
