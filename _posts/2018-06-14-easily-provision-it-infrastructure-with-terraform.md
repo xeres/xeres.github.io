@@ -318,7 +318,7 @@ date: 2018-06-15 21:00:00 +0900
   - 7/9(月) 18:00〜
   - 詳細は Web で!!
 
-主催の GMO Yours
+主催の HashiCorp Japan 様、会場提供をしていただいた GMO 様、ありがとうございました!
 
 [terraform-meetup]: https://hashicorp.connpass.com/event/89569/
 [terraform-aks-tutorial]: https://docs.microsoft.com/en-us/azure/terraform/terraform-create-k8s-cluster-with-tf-and-aks
