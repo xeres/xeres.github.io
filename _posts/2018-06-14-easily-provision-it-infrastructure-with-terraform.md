@@ -215,7 +215,7 @@ date: 2018-06-15 21:00:00 +0900
 ## LT: Terraform と Azure を組み合わせて使うときの勘所
 
 - 2018/06/15追記: スライド上がってた
-  - https://www.slideshare.net/kyoheim/terraformazure-102448779
+  - [TerraformとAzureを組み合わせて使うときの勘所][terraform-with-azure]
 
 - Terraform で指定する値の正しい表記が知りたい
   - ロケーション: `az account list-locations`
@@ -324,3 +324,4 @@ date: 2018-06-15 21:00:00 +0900
 [terraform-aks-tutorial]: https://docs.microsoft.com/en-us/azure/terraform/terraform-create-k8s-cluster-with-tf-and-aks
 [ignite]: https://www.ignite.ci/
 [infra-ci-guide]: http://www.amazon.co.jp/o/ASIN/B07D2YCMJ5/xeres-22/
+[terraform-with-azure]: https://www.slideshare.net/kyoheim/terraformazure-102448779
