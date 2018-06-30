@@ -1,5 +1,5 @@
 ---
-title: "「今からはじめる Kubernetes 入門」を聞いてきた #MSInteract18 #T41"
+title: "聴講レポート: 今からはじめる Kubernetes 入門 #MSInteract18 #T41"
 date: 2018-06-30 13:54:00 +0900
 ---
 
