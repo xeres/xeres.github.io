@@ -10,9 +10,13 @@ Windows 10 バージョン 1709 (Fall Creators Update) 以降、開発者モー�
 
 以降の手順は Ubuntu 16.04 LTS で動作を確認した。
 
-本当は Ubuntu 18.04 LTS を使いたかったのだが、X Imput Method がうまく動作せず、
+~~本当は Ubuntu 18.04 LTS を使いたかったのだが、X Imput Method がうまく動作せず、
 Visual Studio Code (VS Code) を起動すると X サーバーごと応答なしになってしまう。
-要調査。
+要調査。~~
+
+(2018/08/01追記)
+Ubuntu 18.04 LTS でも `fcitx-mozc` で日本語入力ができるようになった。
+https://tech.xeres.jp/2018/08/01/installing-vscode-for-linux-in-wsl-ubuntu-18.04-lts/
 
 ## Windows 側に X サーバーをインストールする
 
