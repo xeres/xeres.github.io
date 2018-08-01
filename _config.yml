@@ -68,7 +68,7 @@ algolia:
   powered_by             : # true (default), false
 
 # SEO Related
-google_site_verification :
+google_site_verification : 3OqV4YYGXtYR1s2D5qUQ_ez4WBlSlpOY5BgO1eL31k8
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -90,9 +90,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
+  provider               : google-gtag # false (default), "google", "google-universal", "custom"
+  google-gtag:
+    tracking_id          : UA-22861161-7
     anonymize_ip         : # true, false (default)
 
 
