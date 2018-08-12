@@ -17,7 +17,7 @@ date: 2018-08-12 17:01:00 +0900
 ほぼ、Google Cloud Natural Language API のサンプルどおり。
 CSV を読み込んで API に食わせて、分析結果と原文を別の CSV に保存する感じにしてみた。
 
-```python:sentiment-analysis.py
+```python
 #!/usr/bin/python3
 
 import sys
@@ -49,7 +49,7 @@ out_file.close()
 こうやって使う。
 
 ```shell
-python3 sentiment-analysis.py onaga.csv onaga_result.csv
+python3 script.py onaga.csv onaga_result.csv
 ```
 
 ## 課金についての注意
