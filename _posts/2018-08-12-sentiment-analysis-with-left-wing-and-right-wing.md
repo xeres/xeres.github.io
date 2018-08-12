@@ -1,5 +1,5 @@
 ---
-title: "翁長雄志、津川雅彦、両氏の死についてのツイートを Google Cloud Natural Language API にぶち込んでみた"
+title: "翁長雄志、津川雅彦、両氏の死についてのツイートを Google Cloud Natural Language API にぶち込んでみたけど、特に何も得られなかった"
 date: 2018-08-12 17:01:00 +0900
 ---
 
