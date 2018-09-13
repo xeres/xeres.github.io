@@ -148,11 +148,11 @@ fi
 2. WSL の起動
 3. ~~下記のコマンドを入力する~~ `~/.profile` (編集で不要になった)
 
-```shell
-sudo sh -c 'dbus-uuidgen > /var/lib/dbus/machine-id'
-fcitx-autostart
-xset -r 49
-```
+    ```shell
+    sudo sh -c 'dbus-uuidgen > /var/lib/dbus/machine-id'
+    fcitx-autostart
+    xset -r 49
+    ```
 
 4. WSL 上で `code` を実行
 
