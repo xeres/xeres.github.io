@@ -131,10 +131,22 @@ sudo sh -c 'echo Asia/Tokyo > /etc/timezone'
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 ```
 
+## OS起動後の WSL 初回起動時に自動的に IME が使えるようにする
+
+`~/.profile` の最後に下記を追記
+
+```bash
+if ! pgrep mozc_server > /dev/null; then
+    fcitx-autostart > /dev/null
+    xset -r 49
+fi
+```
+
 ## OS起動時にやること
 
 1. Xサーバーの起動
-2. 下記のコマンドを入力する
+2. WSL の起動
+3. ~~下記のコマンドを入力する~~ `~/.profile` (編集で不要になった)
 
 ```shell
 sudo sh -c 'dbus-uuidgen > /var/lib/dbus/machine-id'
@@ -142,9 +154,23 @@ fcitx-autostart
 xset -r 49
 ```
 
+4. WSL 上で `code` を実行
+
 これで日本語化＋日本語入力可能な VS Code が使える状態になる。
 
-`dbus-uuidgen --ensure` じゃダメなのかと思ったが、2回目以降の起動で上手くいかなかった。
+~~`dbus-uuidgen --ensure` じゃダメなのかと思ったが、2回目以降の起動で上手くいかなかった。~~
+
+(2018-09-13追記) OS起動の度に実施する必要はなかった。多分、勘違い。
+
+## 補足: GPU との相性問題
+
+Windows 10 1803 (Build 17134.228) + GTX 1080 で、`code` を実行すると「応答なし」になり、
+VcXsrv ごとハングアップしてしまう事象に遭遇。同じ Windows バージョンでハードウェアが
+異なる環境(VAIO S11 2015年モデル)では発生せず。
+
+どうも昔からある GPU との相性問題らしい。
+
+起動時に `code --disable-gpu` とオプションを付けると治った。`~/.bash_profile` で `alias` にして難を逃れた。
 
 [whatsnew-wsl-fcu]: https://blogs.msdn.microsoft.com/commandline/2017/10/11/whats-new-in-wsl-in-windows-10-fall-creators-update/
 [vcxsrv]: https://sourceforge.net/projects/vcxsrv/
