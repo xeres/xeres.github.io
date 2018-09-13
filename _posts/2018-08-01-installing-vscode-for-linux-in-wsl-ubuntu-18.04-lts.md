@@ -20,7 +20,9 @@ Windows 10 バージョン 1709 (Fall Creators Update) 以降、開発者モー�
 上手くいっている人もいるみたいなのだが、なぜか手元の環境では日本語化後に
 VS Code が応答なしになってしまう現象が発生して2ヶ月くらいハマっていた。
 
-`code` を `--no-install-recommends` で入れると大丈夫っぽい。
+~~`code` を `--no-install-recommends` で入れると大丈夫っぽい。~~
+
+(2018-09-13追記) [補足: GPU との相性問題](#補足-GPU-との相性問題)を参照のこと。
 
 ```shell
 curl -L https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
