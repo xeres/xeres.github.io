@@ -7,7 +7,7 @@ date: 2018-11-06 21:40:00 +0900
 
 ELB の話をしていて、Zone Apex に CNAME を設定できないのは何故かという話になった。
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/key/sm3ZFfLpee1hxt?startSlide=19" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing" title="AWS Black Belt Online Seminar 2016 Elastic Load Balancing" target="_blank">AWS Black Belt Online Seminar 2016 Elastic Load Balancing</a> </strong> from <strong><a href="//www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/sm3ZFfLpee1hxt?startSlide=19" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing" title="AWS Black Belt Online Seminar 2016 Elastic Load Balancing" target="_blank">AWS Black Belt Online Seminar 2016 Elastic Load Balancing</a> </strong> from <strong><a href="//www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div>
 
 * Zone Apex (www.example.com ではなく example.com を指定)の場合
     - 通常の DNS サーバーでは CNAME 設定不可
